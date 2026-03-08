@@ -1,36 +1,42 @@
 #include <iostream>
 using namespace std;
-int main(){
-cout <<"Enter the shape";
-string shape;
-cin >>shape;
+main(){
+    string shape;
+    cout<<"ENTER SHAPE: ";
+    cin>>shape;
 
-cout <<"Enter sides:";
-float size;
-cin>>size;
-int area;
-string square;
-if(shape == "square"){
-area= size*size;
-
-cout<<"area:"<<area<<endl;
-}
-string rectangle;
-if(shape == "rectangle"){
- cout <<"enter one side:";
- int side1;
- cin>>side1;
-
- cout<<"enter second side:";
- int side2;
- cin>>side2;
-
-
- area=side1*side2;
-
- cout<<"area:"<<area<<endl;
-}
-
-
+    if(shape == "square"){
+        float side,area;
+        cout<<"enter no. ";
+        cin>>side;
+        area = side * side;
+        cout<<"AREA: "<<area;
+    }
+    if(shape == "rectangle"){
+        float side1,side2,area;
+        cout<<"enter no1: ";
+        cin>>side1;
+        cout<<"enter no2: ";
+        cin>>side2;
+        area = side1 * side2;
+        cout<<"AREA: "<<area;
+    }
+    if(shape == "circle"){
+        float pi=3.14;
+        float r,area;
+        cout<<"enter radius: ";
+        cin>>r;
+        area = (r*r) *pi;
+        cout<<"AREA: "<<area;
+    }
+    if(shape == "triangle"){
+        float b,h,area;
+        cout<<"enter base: ";
+        cin>>b;
+        cout<<"enter height: ";
+        cin>>h;
+        area = (b*h)*(0.5);
+        cout<<"AREA: "<<area;
+    }
 }
 
