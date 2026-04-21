@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-// Function Prototype
 bool isSymmetrical(int num);
 
 int main()
@@ -17,12 +15,10 @@ int main()
 
     return 0;
 }
-
-// Function Definition
 bool isSymmetrical(int num)
 {
-    int firstDigit = num / 100;      // e.g. 232 / 100 = 2
-    int lastDigit  = num % 10;       // e.g. 232 % 10  = 2
+    int firstDigit = num / 100;      
+    int lastDigit  = num % 10;       
 
     if (firstDigit == lastDigit)
         return true;
