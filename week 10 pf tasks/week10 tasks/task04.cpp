@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -13,3 +14,4 @@ int main()
     cout<<"Minimum number : "<<min(number1,number2);
     return 0;
 }
+

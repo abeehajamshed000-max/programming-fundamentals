@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -35,4 +36,5 @@ int main() {
     cout << "Final Salary: " << fixed << setprecision(0) << finalSalary << endl;
 
     return 0;
+
 }

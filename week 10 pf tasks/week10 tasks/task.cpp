@@ -18,7 +18,6 @@ int main()
     return 0;
 }
 
-// Function Definition
 bool isSymmetrical(int num)
 {
     int firstDigit = num / 100;      // e.g. 232 / 100 = 2

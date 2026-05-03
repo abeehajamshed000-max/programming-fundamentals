@@ -21,7 +21,6 @@ string oddishOrEvenish(int num)
 {
     int sum = 0;
 
-    // Extract and sum each digit one by one
     while (num > 0)
     {
         int digit = num % 10;   
